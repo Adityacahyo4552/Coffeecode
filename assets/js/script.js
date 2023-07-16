@@ -16,12 +16,6 @@ document.querySelector("#hamburger-menu").onclick = (e) => {
   e.preventDefault();
 };
 
-// Navbar link Click
-document.querySelector("").onclick = (e) => {
-  navbarNav.classList.toggle("active");
-  e.preventDefault();
-};
-
 // Click the sidebar to remove the navbar menu
 document.addEventListener("click", function (r) {
   if (!hamburger.contains(r.target) && !navbarNav.contains(r.target)) {
@@ -80,12 +74,12 @@ window.onclick = (e) => {
 
 /*============= scroll section active link ==============*/
 let sections = document.querySelectorAll("section");
-let navLinks = document.querySelectorAll(".navbar .navbar-nav .");
+let navLinks = document.querySelectorAll(".navbar .navbar-nav a");
 
 window.onscroll = () => {
   sections.forEach((sec) => {
     let top = window.scrollY;
-    let offset = sec.offsetTop;
+    let offset = sec.offsetTop - 150;
     let height = sec.offsetHeight;
     let id = sec.getAttribute("id");
 
@@ -93,7 +87,7 @@ window.onscroll = () => {
       navLinks.forEach((links) => {
         links.classList.remove("active");
         document
-          .querySelector(".navbar .navbar-nav .[href*=" + id + "]")
+          .querySelector(".navbar .navbar-nav a[href*=" + id + "]")
           .classList.add("active");
       });
     }
