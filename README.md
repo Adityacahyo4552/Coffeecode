@@ -7,14 +7,14 @@
   
   This is a Coffee Code Paralax responsive website, <br/>Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://adityacahyo4552.github.io/SignIn/"><strong>~ Live Demo ~</strong></a>
+  <a href="https://adityacahyo4552.github.io/Coffeecode/"><strong>~ Live Demo ~</strong></a>
 </div>
 
 <br />
 
 ### Demo Screenshot
 
-![SignIn Desktop Demo](./readme-images/PrevDesktop_3.png "Desktop Demo")
+![Coffeecode Desktop Demo](./readme-images/PrevDesktop_3.png "Desktop Demo")
 
 ### Prerequisites
 
