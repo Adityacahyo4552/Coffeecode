@@ -14,7 +14,7 @@
 
 ### Demo Screenshot
 
-![Coffeecode Desktop Demo](./readme-images/PrevDesktop_3.png "Desktop Demo")
+![Coffeecode Desktop Demo](./images-readme/PrevDesktop_1.png "Desktop Demo")
 
 ### Prerequisites
 
